@@ -9,7 +9,7 @@ S-Lab, Nanyang Technological University
 
 
 <div align="center">
-  <img src="https://github.com/KangLiao929/MOWA/blob/main/assets/teaser.jpg" height="240">
+  <img src="https://github.com/KangLiao929/MOWA/blob/main/assets/teaser.jpg" height="340">
 </div>
 
 > ### Why MOWA?
