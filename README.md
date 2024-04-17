@@ -1,7 +1,7 @@
 # MOWA: Multiple-in-One Image Warping Model
 
 ## Introduction
-This is the official implementation for [MOWA]("https://arxiv.org/abs/2404.10716") (arXiv 2024).
+This is the official implementation for [MOWA](https://arxiv.org/abs/2404.10716) (arXiv 2024).
 
 Kang Liao, Zongsheng Yue, Zhonghua Wu, Chen Change Loy
 
