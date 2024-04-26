@@ -20,5 +20,16 @@ S-Lab, Nanyang Technological University
 >  * A prompt learning module, guided by a lightweight point-based classifier, is designed to facilitate task-aware image warpings.
 
 Check out more visual results and interactions [here](https://kangliao929.github.io/projects/mowa/).
+
+## 📣News
+- MOWA has been included in [AI Art Weekly #80](https://aiartweekly.com/issues/80).
+
+## 📝 Changelog
+
+- [x] 2023.04.16: The paper of the arXiv version is online.
+- [ ] Release the code and pre-trained model.
+- [ ] Release a demo for users to try MOWA online.
+- [ ] Release an interactive interface to drag the control points and perform customized warpings.
+
 ## Code
 Coming soon.
