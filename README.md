@@ -33,3 +33,17 @@ Check out more visual results and interactions [here](https://kangliao929.github
 
 ## Code
 Coming soon.
+
+## Citation
+
+```bibtex
+@article{liao2024mowa,
+  title={MOWA: Multiple-in-One Image Warping Model},
+  author={Liao, Kang and Yue, Zongsheng and Wu, Zhonghua and Loy, Chen Change},
+  journal={arXiv preprint arXiv:2404.10716},
+  year={2024}
+}
+```
+
+## License
+This project is licensed under [NTU S-Lab License 1.0](LICENSE).
