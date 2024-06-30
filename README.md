@@ -31,8 +31,19 @@ Check out more visual results and interactions [here](https://kangliao929.github
 - [ ] Release a demo for users to try MOWA online.
 - [ ] Release an interactive interface to drag the control points and perform customized warpings.
 
-## Code
-Coming soon.
+## Installation
+Using the virtual environment (conda) to run the code is recommended.
+```
+conda create -n mowa python=3.8
+conda activate mowa
+pip install -r requirements.txt
+```
+
+## Dataset
+We mainly explored six representative image warping tasks in this work. The datasets are derived/constructed from previous works. For the convenience of training and testing in one project, we cleaned and arranged these six types of datasets with unified structures and more visual assistance. Please refer to the category and download links in [Datasets]().
+
+## Pretrained Model
+Download the pretrained model [here](https://drive.google.com/file/d/1fxQbD1TLoRnW8lG2a8KMinmD6Jlol8EX/view?usp=drive_link) and put it into the ```.\checkpoint``` folder.
 
 ## Citation
 
