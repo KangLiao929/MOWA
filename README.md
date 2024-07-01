@@ -18,6 +18,7 @@ S-Lab, Nanyang Technological University
 >  * The first practical multiple-in-one image warping framework especially in the field of computational photography.
 >  * We propose to mitigate the difficulty of multi-task learning by decoupling the motion estimation in both the region level and pixel level.
 >  * A prompt learning module, guided by a lightweight point-based classifier, is designed to facilitate task-aware image warpings.
+>  * We show that through multi-task learning, our framework develops a robust generalized warping strategy that gains improved performance across various tasks and even generalizes to unseen tasks.
 
 Check out more visual results and interactions [here](https://kangliao929.github.io/projects/mowa/).
 
@@ -27,14 +28,14 @@ Check out more visual results and interactions [here](https://kangliao929.github
 ## 📝 Changelog
 
 - [x] 2023.04.16: The paper of the arXiv version is online.
-- [ ] Release the code and pre-trained model.
+- [x] Release the code and pre-trained model.
 - [ ] Release a demo for users to try MOWA online.
 - [ ] Release an interactive interface to drag the control points and perform customized warpings.
 
 ## Installation
 Using the virtual environment (conda) to run the code is recommended.
 ```
-conda create -n mowa python=3.8
+conda create -n mowa python=3.8.13
 conda activate mowa
 pip install -r requirements.txt
 ```
