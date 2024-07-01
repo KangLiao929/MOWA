@@ -47,7 +47,7 @@ We mainly explored six representative image warping tasks in this work. The data
 Download the pretrained model [here](https://drive.google.com/file/d/1fxQbD1TLoRnW8lG2a8KMinmD6Jlol8EX/view?usp=drive_link) and put it into the ```.\checkpoint``` folder.
 
 ## Testing
-### Unfied Warping and Evaluation on Public Benchmark
+### Unified Warping and Evaluation on Public Benchmark
 Customize the paths of checkpoint and test set, and run:
 ```
 sh scripts/test.sh
