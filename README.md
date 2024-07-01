@@ -28,7 +28,7 @@ Check out more visual results and interactions [here](https://kangliao929.github
 ## 📝 Changelog
 
 - [x] 2023.04.16: The paper of the arXiv version is online.
-- [x] Release the code and pre-trained model.
+- [x] 2023.06.30: Release the code and pre-trained model.
 - [ ] Release a demo for users to try MOWA online.
 - [ ] Release an interactive interface to drag the control points and perform customized warpings.
 
