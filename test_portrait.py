@@ -6,7 +6,7 @@ import os
 import glob
 import numpy as np
 import cv2
-from Code.MOWA.Github.model.network import MOWA
+from model.network import MOWA
 from collections import OrderedDict
 from utils.utils_op import *
 from tqdm import tqdm
