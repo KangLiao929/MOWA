@@ -3,7 +3,7 @@
 ## Introduction
 This is the official implementation for [MOWA](https://arxiv.org/abs/2404.10716) (arXiv 2024).
 
-Kang Liao, Zongsheng Yue, Zhonghua Wu, Chen Change Loy
+[Kang Liao](https://kangliao929.github.io/), [Zongsheng Yue](https://zsyoaoa.github.io/), [Zhonghua Wu](https://wu-zhonghua.github.io/), [Chen Change Loy](https://www.mmlab-ntu.com/person/ccloy/)
 
 S-Lab, Nanyang Technological University
 
