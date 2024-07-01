@@ -207,9 +207,9 @@ if __name__=="__main__":
     parser = argparse.ArgumentParser()
     '''Implementation details'''
     parser.add_argument('-gpu', '--gpu_ids', type=str, default='0')
-    parser.add_argument('-b', '--batch_size', type=int, default=32)
+    parser.add_argument('-b', '--batch_size', type=int, default=8)
     parser.add_argument('--max_epoch', type=int, default=300)
-    parser.add_argument('-m', '--method', type=str, default='tps_curriculum')
+    parser.add_argument('-m', '--method', type=str, default='mowa')
     parser.add_argument('-P', '--port', default='21016', type=str)
     parser.add_argument('-d', '--distributed', type=bool, default=True)
     parser.add_argument('-w', '--warmup', type=bool, default=True)
@@ -236,8 +236,8 @@ if __name__=="__main__":
     parser.add_argument('--shared_head', type=bool, default=False)
     
     '''Dataset settings'''
-    parser.add_argument('--train_path', type=str, default=['/Dataset/pano-rectangling/training/', '/Dataset/wide-angle_rectangling/train/', 
-                                                           '/Dataset/RS_Rec/RS_Rec/train/', '/Dataset/Rotation/training/',
+    parser.add_argument('--train_path', type=str, default=['/Dataset/pano-rectangling/train/', '/Dataset/wide-angle_rectangling/train/', 
+                                                           '/Dataset/RS_Rec/RS_Rec/train/', '/Dataset/Rotation/train/',
                                                            '/Dataset/fisheye/train/', '/Dataset/FaceRec/train/'])
     
     args = parser.parse_args()

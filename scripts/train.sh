@@ -1,0 +1,1 @@
+python train.py -gpu '0, 1, 2, 3, 4, 5, 6, 7' -b 8 -m 'mowa' [--train_path=...]

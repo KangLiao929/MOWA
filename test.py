@@ -169,7 +169,7 @@ if __name__=="__main__":
     parser.add_argument('--shared_head', type=bool, default=False)
     
     '''Dataset settings'''                                                     
-    parser.add_argument('--test_path', type=str, default=['/stitch/test/', '/wide-angle/test/', '/RS_Rec/test/', '/Rotation/test/', '/fisheye/test/'])
+    parser.add_argument('--test_path', type=str, default=['/stitch/test/', '/wide-angle/test/', '/RS_Rec/test/', '/Rotation/test/', '/fisheye/test/', '/portrait/test/'])
     
     print('<==================== Testing ===================>\n')
 

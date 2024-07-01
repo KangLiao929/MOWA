@@ -47,8 +47,25 @@ We mainly explored six representative image warping tasks in this work. The data
 Download the pretrained model [here](https://drive.google.com/file/d/1fxQbD1TLoRnW8lG2a8KMinmD6Jlol8EX/view?usp=drive_link) and put it into the ```.\checkpoint``` folder.
 
 ## Testing
+### Unfied Warping and Evaluation on Public Benchmark
+Customize the paths of checkpoint and test set, and run:
+```
+sh scripts/test.sh
+```
+The warped images and the intermediate results such as the control points and warping flow can be found in the ```.\results``` folder. The evaluated metrics such as PSNR and SSIM are also shown with the task ID.
+
+### Specific Evaluation on Portrait Correction
+In the portrait correction task, the ground truth of warped image and flow is unavaible and thus the image quality metrics cannot be evaluated. Instead, the specific metric (ShapeAcc) regarding this task's purpose, i.e., correcting the face distortion, was presented. To reproduce the warping performance on portrait photos, customize the paths of checkpoint and test set, and run:
+```
+sh scripts/test_portrait.sh
+```
+The warped images can also be found in the test path.
 
 ## Training
+Customize the paths of all warping training datasets in a list, and run:
+```
+sh scripts/train.sh
+```
 
 ## Demo
 TBD
