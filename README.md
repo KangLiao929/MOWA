@@ -55,7 +55,7 @@ sh scripts/test.sh
 The warped images and the intermediate results such as the control points and warping flow can be found in the ```.\results``` folder. The evaluated metrics such as PSNR and SSIM are also shown with the task ID.
 
 ### Specific Evaluation on Portrait Correction
-In the portrait correction task, the ground truth of warped image and flow is unavaible and thus the image quality metrics cannot be evaluated. Instead, the specific metric (ShapeAcc) regarding this task's purpose, i.e., correcting the face distortion, was presented. To reproduce the warping performance on portrait photos, customize the paths of checkpoint and test set, and run:
+In the portrait correction task, the ground truth of warped image and flow is unavailable and thus the image quality metrics cannot be evaluated. Instead, the specific metric (ShapeAcc) regarding this task's purpose, i.e., correcting the face distortion, was presented. To reproduce the warping performance on portrait photos, customize the paths of checkpoint and test set, and run:
 ```
 sh scripts/test_portrait.sh
 ```
@@ -70,6 +70,8 @@ sh scripts/train.sh
 ## Demo
 TBD
 
+## Acknowledgment
+The current version of **MOWA** is inspired by previous specific image warping works such as [RectanglingPano](https://kaiminghe.github.io/publications/sig13pano.pdf), [DeepRectangling](https://github.com/nie-lang/DeepRectangling), [RecRecNet](https://github.com/KangLiao929/RecRecNet), [PCN](https://github.com/uof1745-cmd/PCN), [Deep_RS-HM](https://github.com/DavidYan2001/Deep_RS-HM), [SSPC](https://github.com/megvii-research/Portraits_Correction).
 
 ## Citation
 
@@ -81,6 +83,9 @@ TBD
   year={2024}
 }
 ```
+
+## Contact
+For any questions, feel free to email `kang.liao@ntu.edu.sg`.
 
 ## License
 This project is licensed under [NTU S-Lab License 1.0](LICENSE).
