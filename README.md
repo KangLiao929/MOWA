@@ -66,6 +66,8 @@ Customize the paths of all warping training datasets in a list, and run:
 ```
 sh scripts/train.sh
 ```
+## Projects that use MOWA
+* MOWA-onnxrun: [https://github.com/hpc203/MOWA-onnxrun](https://github.com/hpc203/MOWA-onnxrun)
 
 ## Demo
 TBD
