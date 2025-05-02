@@ -1,7 +1,7 @@
 # MOWA: Multiple-in-One Image Warping Model
 
 ## Introduction
-This is the official implementation for [MOWA](https://arxiv.org/abs/2404.10716) (arXiv 2024).
+This is the official implementation for [MOWA](https://arxiv.org/abs/2404.10716) (TPAMI 2025).
 
 [Kang Liao](https://kangliao929.github.io/), [Zongsheng Yue](https://zsyoaoa.github.io/), [Zhonghua Wu](https://wu-zhonghua.github.io/), [Chen Change Loy](https://www.mmlab-ntu.com/person/ccloy/)
 
@@ -27,8 +27,9 @@ Check out more visual results and interactions [here](https://kangliao929.github
 
 ## 📝 Changelog
 
-- [x] 2023.04.16: The paper of the arXiv version is online.
-- [x] 2023.06.30: Release the code and pre-trained model.
+- [x] 2024.04.16: The paper of the arXiv version is online.
+- [x] 2024.06.30: Release the code and pre-trained model.
+- [x] 2025.05.01: MOWA has been accepted to IEEE TPAMI.
 - [ ] Release a demo for users to try MOWA online.
 - [ ] Release an interactive interface to drag the control points and perform customized warpings.
 
