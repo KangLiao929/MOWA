@@ -45,11 +45,11 @@ pip install -r requirements.txt
 We mainly explored six representative image warping tasks in this work. The datasets are derived/constructed from previous works. For the convenience of training and testing in one project, we cleaned and arranged these six types of datasets with unified structures and more visual assistance. Please refer to the category and download links in [Datasets](https://github.com/KangLiao929/MOWA/tree/main/Datasets).
 
 ## Pretrained Model
-Download the pretrained model [here](https://drive.google.com/file/d/1fxQbD1TLoRnW8lG2a8KMinmD6Jlol8EX/view?usp=drive_link) and put it into the ```.\checkpoint``` folder.
+Download the pretrained model from [Google Drive](https://drive.google.com/file/d/1fxQbD1TLoRnW8lG2a8KMinmD6Jlol8EX/view?usp=drive_link) or [Baidu Netdisk](https://pan.baidu.com/s/1swMZTkTm1iSYDGVsdepdBA?pwd=hcvy), and put it into the ```.\checkpoint``` folder.
 
 ## Testing
 ### Unified Warping and Evaluation on Public Benchmark
-Customize the paths of checkpoint and test set, and run:
+Customize the paths of the checkpoint and test set, and run:
 ```
 sh scripts/test.sh
 ```
