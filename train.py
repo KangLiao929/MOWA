@@ -149,7 +149,7 @@ def train(gpu, ngpus_per_node, args):
             point_loss_sigma += point_loss.item()
             flow_loss_sigma += flow_loss.item()
             
-            ''' writting training logs '''
+            ''' writing training logs '''
             if i % args.print_interval == 0 and i != 0:
                 if dist.get_rank() == 0:
                     total_loss_average = total_loss_sigma / args.print_interval
